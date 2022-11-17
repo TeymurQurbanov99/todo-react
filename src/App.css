@@ -7,6 +7,16 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.header .inputConainer {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   flex: 30%;
   background-color: tomato;
@@ -14,4 +24,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.header input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+}
+
+.header button {
+  width: 70px;
+  height: 87px;
+  border: none;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.todoList {
+  flex: 70%;
+  width: 100%;
 }
